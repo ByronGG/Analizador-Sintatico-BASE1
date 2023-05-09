@@ -13,7 +13,7 @@ public class Analizador {
         } else if (Logico.esOperadorRelacional(cadena)) {
             System.out.println(cadena + " <- SIGNO RELACIONAL");
         } else if (Puntuacion.esSeparador(cadena)) {
-            System.out.println(cadena + " SEPARADOR");
+            System.out.println(cadena + " <- SEPARADOR");
         } else if (Puntuacion.esPuntuacion(cadena)) {
             System.out.println(cadena + " <- SIGNO DE PUNTUACION");
         } else if (Palabras.esPalabra(cadena)){
