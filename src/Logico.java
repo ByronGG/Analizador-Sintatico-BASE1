@@ -1,7 +1,7 @@
 public class Logico {
 
     public static boolean esOperadorLogico(String cadena) {
-        String[] operadores = {"&", "|", "!"};
+        String[] operadores = { "&", "|", "!" };
         for (String operador : operadores) {
             if (cadena.equals(operador)) {
                 return true;
@@ -9,9 +9,9 @@ public class Logico {
         }
         return false;
     }
-    
+
     public static boolean esOperadorRelacional(String cadena) {
-        String[] operadores = {"==", "!=", "<=", ">=", "<", ">"};
+        String[] operadores = { "==", "!=", "<=", ">=", "<", ">" };
         for (String operador : operadores) {
             if (cadena.equals(operador)) {
                 return true;
@@ -20,4 +20,3 @@ public class Logico {
         return false;
     }
 }
-

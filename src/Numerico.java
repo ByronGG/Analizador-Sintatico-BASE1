@@ -1,6 +1,6 @@
 
-public class Numerico{
-    
+public class Numerico {
+
     public static boolean esEntero(String cadena) {
         try {
             Integer.parseInt(cadena);

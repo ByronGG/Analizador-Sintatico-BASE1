@@ -16,11 +16,11 @@ public class Analizador {
             System.out.println(cadena + " <- SEPARADOR");
         } else if (Puntuacion.esPuntuacion(cadena)) {
             System.out.println(cadena + " <- SIGNO DE PUNTUACION");
-        } else if (Palabras.esPalabra(cadena)){
-            System.out.println(cadena + " <- PALABRA");   
+        } else if (Palabras.esPalabra(cadena)) {
+            System.out.println(cadena + " <- PALABRA");
         } else {
             System.out.println(cadena + " <- DESCONOCIDO");
         }
     }
-    
+
 }
