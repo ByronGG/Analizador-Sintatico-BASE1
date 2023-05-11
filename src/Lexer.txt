@@ -1,0 +1,14 @@
+
+%%
+%line
+%column
+%type String
+terminador=\r|\n|\r\n
+espaciador={terminador}|[ \t]
+decimal=0|[1-9][0-9]*
+octal=0[0-7]*
+hexadecimal=0x[0-9A-Fa-f]+
+%%
+{decimal}{return "DEC";}
+{octal}{return "OCT";}
+{hexadecimal}{return "HEX";}
